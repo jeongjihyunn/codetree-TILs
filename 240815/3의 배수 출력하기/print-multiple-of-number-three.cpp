@@ -5,7 +5,7 @@ int main() {
     int n;
     int i=1;
     cin >>n;
-    while(n>=i){
+    while(n>i){
         i++;
         if(i%3==0){
             cout<<i<<" ";
