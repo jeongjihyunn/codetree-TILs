@@ -2,8 +2,10 @@
 using namespace std;
 
 int main() {
-    for(int n=8;n>=1;n--){
-        cout<<n<<" ";
+    int n;
+    cin >>n;
+    for(int i=n;i>=1;i--){
+        cout<<i<<" ";
     }
     // 여기에 코드를 작성해주세요.
     return 0;
