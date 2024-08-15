@@ -17,6 +17,9 @@ int main() {
       else if(c1=="Y"&&c2>=37){
         cout<<"E";
       }
+      else{
+        cout<<"N";
+      }
     }
     else if(b1=="Y"&&b2>=37){
       if(c1=="Y"&&c2>=37){
