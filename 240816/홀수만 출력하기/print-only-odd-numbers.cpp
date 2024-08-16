@@ -2,20 +2,15 @@
 using namespace std;
 
 int main() {
-    int n,a,i;
-    cin >>n;
-    cin.get();
-    while(i<=n){
-        cin>>a;
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        int a;
+        cin >>a;
         cin.get();
-        i++;
-    }
-    // for(int i=1;i<=n;i++){
-    //     cin >>a;
-    //     cin.get();
-    // }
-    if((a%2==1)&&(a%3==0)){
-        cout <<a<<endl;
+        if(a%3==0&&a%2==1){
+            cout<<a<<endl;
+        }
     }
     // 여기에 코드를 작성해주세요.
     return 0;
