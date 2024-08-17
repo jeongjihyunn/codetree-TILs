@@ -12,7 +12,7 @@ int main() {
             }
         }
     }
-    else{
+    else if(a<=b){
         for(int i=b;i<=a;i++){
             if(i%5==0){
                 sum +=i;
