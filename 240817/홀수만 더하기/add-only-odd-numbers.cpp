@@ -5,11 +5,11 @@ int main() {
     int n=0;
     int sum=0;
     cin >>n;
-    for(int i;i<=n;i++){
+    for(int i=1;i<=n;i++){
         int a;
         cin >>a;
         if(a%2==1&&a%3==0){
-            sum+=a;
+            sum += a;
         }
     }
     cout<<sum;
