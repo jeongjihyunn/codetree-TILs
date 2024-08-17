@@ -2,13 +2,12 @@
 using namespace std;
 
 int main() {
-    int n;
+    int n=0;
     int sum=0;
     cin >>n;
     for(int i;i<=n;i++){
         int a;
         cin >>a;
-        cin.get();
         if(a%2==1&&a%3==0){
             sum+=a;
         }
