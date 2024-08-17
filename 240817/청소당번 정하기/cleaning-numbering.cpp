@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int n,cnt1=0,cnt2=0,cnt3=0;
     cin >>n;
-    for(int i=1;i<=n-1;i++){
+    for(int i=1;i<=n;i++){
         if(i%12==0){
             cnt3++;
         }
