@@ -4,17 +4,17 @@ using namespace std;
 int main() {
     int a,b,c;
     cin >>a>>b>>c;
-    bool satisfied=false;
+    bool satisfied=true;
     for(int i=a;i<=b;i++){
         if(i%c==0){
-            satisfied=true;
+            satisfied=false;
         }
     }
     if(satisfied==true){
-        cout<<"No";
+        cout<<"YES";
     }
     else{
-        cout<<"YES";
+        cout<<"NO";
     }
     // 여기에 코드를 작성해주세요.
     return 0;
